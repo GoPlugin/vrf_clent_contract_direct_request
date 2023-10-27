@@ -53,8 +53,10 @@ contract VRFv2DirectFundingConsumer is
     // Cannot exceed VRFV2Wrapper.getConfig().maxNumWords.
     uint32 numWords = 2;
 
-    // Address PLI - hardcoded for Plugin Mainnet
-    address pliAddress =0xFf7412Ea7C8445C46a8254dFB557Ac1E48094391;
+    // Address PLI - hardcoded for Plugin Mainnet  
+    // Plugin Mainnet -  0xFf7412Ea7C8445C46a8254dFB557Ac1E48094391
+    // Plugin Apothem - 0x33f4212b027E22aF7e6BA21Fc572843C0D701CD1
+    address pliAddress = PLI ADDRESS;
 
     // address WRAPPER
     address wrapperAddress = WRAPPER_ADDRESS; // request wrapper address from Plugin team
